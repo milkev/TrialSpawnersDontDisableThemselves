@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "tsddt",
+  "version": "${version}",
+
+  "name": "Trial Spawners Dont Disable Themselves",
+  "description": "Stops custom made trial spawners from disabling themselves",
+  "authors": [
+    "Milkev"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/milkev/TSDDT"
+  },
+
+  "license": "CUSTOM LICENSE",
+  "icon": "assets/tsddt/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.milkev.tsddt.common.TSDDT"
+    ]
+  },
+  "mixins": [
+    "TSDDT.Mixin.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric": "*",
+    "minecraft": "1.21.x"
+  },
+  "suggests": {
+  }
+}

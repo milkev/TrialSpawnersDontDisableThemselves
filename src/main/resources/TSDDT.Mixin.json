@@ -1,0 +1,14 @@
+
+{
+  "required": true,
+  "package": "net.milkev.tsddt.common.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "TrialSpawnerDataMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
